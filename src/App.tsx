@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-shadow */
 /* eslint-disable react/button-has-type */
-import { useState } from 'react'
+import React, { useState } from 'react'
 
 import './App.css'
 
