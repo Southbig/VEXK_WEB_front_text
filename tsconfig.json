@@ -21,11 +21,11 @@
     "noFallthroughCasesInSwitch": true
   },
   // "include": ["src"],
-  "include": [".eslintrc.cjs", "src"], 
+  "include": [".eslintrc.cjs", "src"],
   "references": [{ "path": "./tsconfig.node.json" }],
   "parserOptions": {
     "ecmaVersion": "latest",
     "sourceType": "module",
-    "project": "./tsconfig.json",
-  },
+    "project": "./tsconfig.json"
+  }
 }
