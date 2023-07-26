@@ -44,7 +44,7 @@ module.exports = {
   rules: {
     'react/react-in-jsx-scope': 'off',
   },
-  ignorePatterns: ['.eslintrc.cjs', 'vite.config.ts']
+  ignorePatterns: ['.eslintrc.cjs', 'vite.config.ts'],
 }
 
 // extends: [ 'plugin:prettier/recommended']
