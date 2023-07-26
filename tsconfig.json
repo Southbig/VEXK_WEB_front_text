@@ -26,6 +26,6 @@
   "parserOptions": {
     "ecmaVersion": "latest",
     "sourceType": "module",
-    "project": "./vite-project/tsconfig.json",
+    "project": "./tsconfig.json",
   }
 }
