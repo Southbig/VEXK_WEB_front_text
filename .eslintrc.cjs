@@ -28,16 +28,16 @@ module.exports = {
         node: true,
       },
       files: ['.eslintrc.{js,cjs}'],
-      // parserOptions: {
-      //   sourceType: 'script',
-      // },
+      parserOptions: {
+        sourceType: 'script',
+      },
     },
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
-    "project": ["./tsconfig.json"]
+    project: ['./tsconfig.json'],
   },
   plugins: ['@typescript-eslint', 'react', 'prettier'],
   rules: {},
