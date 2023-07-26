@@ -28,10 +28,9 @@ module.exports = {
         node: true,
       },
       files: ['.eslintrc.{js,cjs}'],
-      parserOptions: {
-        sourceType: 'script',
-        "project": ["./tsconfig.json"]
-      },
+      // parserOptions: {
+      //   sourceType: 'script',
+      // },
     },
   ],
   parser: '@typescript-eslint/parser',
