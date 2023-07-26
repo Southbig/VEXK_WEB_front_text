@@ -30,6 +30,7 @@ module.exports = {
       files: ['.eslintrc.{js,cjs}'],
       parserOptions: {
         sourceType: 'script',
+        project: ['./tsconfig.json'],
       },
     },
   ],
@@ -37,7 +38,7 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
-    // project: ['./tsconfig.json'],
+    project: ['./tsconfig.json'],
   },
   plugins: ['@typescript-eslint', 'react', 'prettier'],
   rules: {},
