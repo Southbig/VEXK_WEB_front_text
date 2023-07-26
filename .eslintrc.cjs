@@ -44,7 +44,6 @@ module.exports = {
   rules: {
     'react/react-in-jsx-scope': 'off',
   },
-  ignorePatterns: ['.eslintrc.cjs'],
 }
 
 // extends: [ 'plugin:prettier/recommended']
